@@ -1,1 +1,0 @@
-[istroev.me](http://istroev.me)
