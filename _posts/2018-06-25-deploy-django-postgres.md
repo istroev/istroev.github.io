@@ -1,5 +1,5 @@
 ---
-published: false
+published: true
 ---
 ## Деплой django + postgresql на heroku
 
