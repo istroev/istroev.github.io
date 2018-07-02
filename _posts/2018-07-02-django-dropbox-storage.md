@@ -1,5 +1,5 @@
 ---
-published: false
+published: true
 title: Dropbox как storage для django
 tags: dropbox django
 ---
