@@ -4,7 +4,7 @@ title: Dropbox как storage для django
 tags: dropbox django
 ---
 
-В предыдущей [https://istroev.me/deploy-django-postgres/](статье) рассматривалось развертывание django на heroku. Как уже было сказано, в heroku используется эфемерная файловая система, поэтому использовать FileField вместе с FileSystemStorage не получится. Для того, чтобы использовать FileField в heroku в качестве хранилища для файлов можно использовать dropbox.
+В предыдущей [статье](https://istroev.me/deploy-django-postgres/) рассматривалось развертывание django на heroku. Как уже было сказано, в heroku используется эфемерная файловая система, поэтому использовать FileField вместе с FileSystemStorage не получится. Для того, чтобы использовать FileField в heroku в качестве хранилища для файлов можно использовать dropbox.
 Для использования dropbox вместе с django нужно добавить в зависимости django-storages и Dropbox Python SDK.
 ```console
 pipenv install django-storages dropbox
