@@ -1,5 +1,5 @@
 ---
-published: false
+published: true
 tags: OpenSSH
 ---
 В [OpenSSH](https://ru.wikipedia.org/wiki/OpenSSH) версии [6.2](https://www.openssh.com/txt/release-6.2) появилась опция AuthorizedKeysCommand, которая позволяет выполнять произвольный скрипт для авторизации пользователя по публичному ключу. AuthorizedKeysCommand предоставляет возможность авторизовать пользователя без добавления публичного ключа в файл `authorized_keys`, при этом  предполагается, что ключ хранится где-то на удаленном сервере.  Опции настраивается в [/etc/ssh/sshd_config](https://man.openbsd.org/sshd_config#AuthorizedKeysCommand).  В параметрах указывается скрипт, который должен быть в `PATH` и иметь права на запуск.
