@@ -1,4 +1,5 @@
 ---
+layout: post
 published: true
 title: Server Side Template Injection (SSTI) в Jinja
 ---

@@ -1,4 +1,5 @@
 ---
+layout: post
 published: false
 title: Запуск Python приложения через Nginx + UWSGI в Docker
 ---

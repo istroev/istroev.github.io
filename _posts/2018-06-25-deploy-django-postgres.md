@@ -1,4 +1,5 @@
 ---
+layout: post
 published: true
 title: Деплой Django + Postresql на Heroku
 ---
