@@ -80,7 +80,7 @@ cp /etc/xdg/awesome/rc.lua ~/.config/awesome/
 Много информации по настройке awesome можно найти на arch wiki.
 
 ##### links
-[https://wiki.archlinux.org/index.php/Awesome_(Русский)](https://wiki.archlinux.org/index.php/Awesome_(Русский))
-[https://wiki.debian.org/ru/NetworkConfiguration](https://wiki.debian.org/ru/NetworkConfiguration)
-[https://github.com/streetturtle/awesome-wm-widgets](https://github.com/streetturtle/awesome-wm-widgets)
-[https://github.com/nicklan/pnmixer](https://github.com/nicklan/pnmixer)
+* [https://wiki.archlinux.org/index.php/Awesome_(Русский)](https://wiki.archlinux.org/index.php/Awesome_(Русский))
+* [https://wiki.debian.org/ru/NetworkConfiguration](https://wiki.debian.org/ru/NetworkConfiguration)
+* [https://github.com/streetturtle/awesome-wm-widgets](https://github.com/streetturtle/awesome-wm-widgets)
+* [https://github.com/nicklan/pnmixer](https://github.com/nicklan/pnmixer)
